@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <abbr title="dark mode"><input type="checkbox" class="inputMode"></abbr>
+    <aside>
+        <button id="btnAside" class="btn-aside">
+            <abbr title="fechar/abrir menu"><img class="img-btnAside" src="https://cdn-icons-png.flaticon.com/512/747/747872.png" alt=""></abbr>
+        </button>
+
+        <div class="containerAside">
+            <div class="top-aside" id="topAside">
+                <h4>Nome Usuário</h4>
+            </div>
+                   <div class="menu" id="menuAside">
+            <div class="menu-item"><img src="imagens/botao-play.png" alt=""> Criar nova lista</div>
+            <div class="menu-item"><img src="imagens/botao-play.png" alt=""> Criar nova lista</div>
+            <div class="menu-item"><img src="imagens/botao-play.png" alt=""> Criar nova lista</div>
+            <div class="menu-item"><img src="imagens/botao-play.png" alt=""> Criar nova lista</div>
+                   </div>
+            
+                   <div class="botton">
+               <p><a target="_blank" href="https://github.com/gabriel-teotonio">Gabriel Teotonio ;)</a> - 2022</p>
+                   </div>
+        </div>
+    </aside>
+
+
+
+   <div class="container">
+
+    <header class="header">
+        <div class="box-show">
+            <img class="imgTodo" src="imagens/caderno.png" alt="">
+        </div>
+        
+           <div class="box-titulo">
+               <input spellcheck="false" type="text" id="nameList" class="name-list" placeholder="name list...">
+           </div>
+    </header>
+    
+        <form>
+                <input spellcheck="false" autocomplete="off" type="text" id="input-text" placeholder="escreva aqui sua tarefa...">
+                <button id="btn-add"><img src="imagens/plus.png" alt=""></button>
+        
+        </form>
+
+           
+        <div id="todo" class="todo-container">
+            <ul id="list" class="todo-list">
+              
+            </ul>
+        </div>
+       
+   </div> 
+ 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
