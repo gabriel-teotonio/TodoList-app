@@ -8,8 +8,7 @@
 </ul>
 
 <h3>Sobre</h3>
-Lista de tarefas simples implementada de algumas animações e ainda,
-incluida de um modal para mudar o nome de usuario.
+Lista de tarefas simples implementada de algumas animações.
 
 <h3>Oque aprendi</h3>
 Este miniProjeto que fiz e refiz para fixar, foi de suma importância para a
